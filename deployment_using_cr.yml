@@ -20,8 +20,8 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: guestbook:local          # tag you built locally
-        imagePullPolicy: Never          # do NOT try to pull from a registry
+      - image: us.icr.io/<your sn labs namespace>/guestbook:v1
+        imagePullPolicy: Always
         name: guestbook
         ports:
         - containerPort: 3000
