@@ -1,4 +1,6 @@
-using-local-image-instead-of-CR.txt
+
+1_init-dev-env.txt
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
